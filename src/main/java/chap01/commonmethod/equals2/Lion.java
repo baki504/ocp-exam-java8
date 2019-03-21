@@ -1,11 +1,12 @@
 package chap01.commonmethod.equals2;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-
 public class Lion {
-    private int idNumber;
-    private int age;
-    private String name;
+    protected int idNumber;
+    protected int age;
+    protected String name;
+
+    public Lion() {
+    }
 
     public Lion(int idNumber, int age, String name) {
         super();
@@ -16,19 +17,12 @@ public class Lion {
 
     @Override
     public boolean equals(Object obj) {
-        if (!(obj instanceof LionEqualsBuilder))
+
+        if (!(obj instanceof Lion))
             return false;
-        Lion other = (Lion) obj;
-        return new EqualsBuilder().appendSuper(super.equals(obj)).append(idNumber, other.idNumber)
-                .append(name, other.name).isEquals();
-    }
 
-    public static void main(String[] args) {
-        LionEqualsBuilder l1 = new LionEqualsBuilder(1, 5, "duke");
-        LionEqualsBuilder l2 = new LionEqualsBuilder(1, 5, "duke");
-        LionEqualsBuilder l3 = l1;
-        System.out.println(l1.equals(l2));
-        System.out.println(l1.equals(l3));
-    }
+        Lion otherlion = (Lion) obj;
 
+        return this.idNumber == otherlion.idNumber;
+    }
 }
