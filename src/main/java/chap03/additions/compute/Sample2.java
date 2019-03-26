@@ -21,8 +21,10 @@ public class Sample2 {
 
         Map<String, Integer> counts2 = new HashMap<>();
         counts2.put("Jenny", 1);
-        counts2.computeIfPresent("Jenny", (k, v) -> null);
-        counts2.computeIfAbsent("Sam", k -> null);
+        Integer jenny2 = counts2.computeIfPresent("Jenny", (k, v) -> null); // null
+        Integer sam2 = counts2.computeIfAbsent("Sam", k -> null); // null
+        System.out.println(jenny2);
+        System.out.println(sam2);
         System.out.println(counts2); // {}
     }
 }
