@@ -1,4 +1,4 @@
-# Projec for Upgrade Java SE 7 to Java SE 8 OCP Programmer | 1Z0-810
+# Project for Upgrade Java SE 7 to Java SE 8 OCP Programmer | 1Z0-810
 
 ## 公式サイト
 https://education.oracle.com/ja/upgrade-java-se-7-to-java-se-8-ocp-programmer/pexam_1Z0-810
@@ -25,5 +25,5 @@ https://education.oracle.com/ja/upgrade-java-se-7-to-java-se-8-ocp-programmer/pe
 ## 試験本番
 
 * 公式サイト「試験内容 チェックリスト」に記載されている内容が万遍なく出題
-* 参考文献の演習問題と類似した問題、もしくはそれより若干平易な問題がほとんど
-* 初見の問題は1割程度
+* 参考文献の演習問題と類似した問題、もしくはそれより若干平易な問題が全体の9割
+* 出題コードで意図的ではなさそうなインデント不備が数か所（解答にはほぼ無影響）
