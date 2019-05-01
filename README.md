@@ -3,7 +3,17 @@
 ## 公式サイト
 https://education.oracle.com/ja/upgrade-java-se-7-to-java-se-8-ocp-programmer/pexam_1Z0-810
 
-## 参考文献・活用方法
+## 試験情報
+
+#### 受験日時
+‎2019年4月28日(日)  10:00 午前 日本標準時‎
+
+#### 結果
+合格
+
+## 備忘録
+
+### 参考文献・活用方法
 
 1. [OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: Exam 1Z0-809](https://www.amazon.co.jp/OCP-Certified-Professional-Programmer-1Z0-809/dp/1119067901/ref=sr_1_4?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&keywords=ocjp+gold&qid=1556485044&s=gateway&sr=8-4)
     * 1Z0-810のテスト範囲が書かれているので、該当章のみ熟読
@@ -22,8 +32,8 @@ https://education.oracle.com/ja/upgrade-java-se-7-to-java-se-8-ocp-programmer/pe
     * 知りたいところだけ繰り返し視聴
 
 
-## 試験本番
+### 試験本番
 
 * 公式サイト「試験内容 チェックリスト」に記載されている内容が万遍なく出題
 * 参考文献の演習問題と類似した問題、もしくはそれより若干平易な問題が全体の9割
-* 出題コードで意図的ではなさそうなインデント不備が数か所（解答にはほぼ無影響）
+* 出題コードで意図的ではなさそうなインデント不備が数か所（可読性が低い以外解答には無影響）
