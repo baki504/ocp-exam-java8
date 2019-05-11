@@ -1,4 +1,4 @@
-package review.functional;
+package other.review;
 
 import java.util.Optional;
 import java.util.stream.Collectors;
